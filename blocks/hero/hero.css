@@ -35,3 +35,40 @@
     padding: 40px 32px;
   }
 }
+
+.hero-foreground {
+    max-width: var(--grid-container-width);
+    min-height: var(--min-height);
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    align-items: center;
+
+    p {
+      margin: 8px 0;
+    }
+
+    div > *:first-child {
+      margin-top: 0;
+    }
+
+    div > *:last-child {
+      margin-bottom: 0;
+    }
+
+    .hero-detail {
+      margin: 0;
+    }
+
+    .hero-heading {
+      margin: 0;
+    }
+  }
+
+  &.center {
+    .hero-foreground {
+      justify-content: center;
+      text-align: center;
+    }
+  }
+}

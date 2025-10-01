@@ -186,8 +186,8 @@ button {
   display: inline-block;
   max-width: 100%;
   margin: 12px 0;
-  border: 2px solid;
-  #border-radius: 2.4em;
+  border: 2px solid transparent;
+  border-radius: 2.4em;
   padding: 8px 12px;
   font-family: var(--body-font-family);
   font-style: normal;

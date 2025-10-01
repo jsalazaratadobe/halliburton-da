@@ -24,17 +24,23 @@
   --heading-font-family: avenir-next-lt-pro, "Trebuchet MS", sans-serif;
 
   /* body sizes */
-  --body-font-size-m: 22px;
-  --body-font-size-s: 19px;
-  --body-font-size-xs: 17px;
+  --body-font-size-xxxl: 25px;
+  --body-font-size-xxl: 22px;
+  --body-font-size-xl: 20px;
+  --body-font-size-l: 18px;
+  --body-font-size-m: 16px;
+  --body-font-size-s: 14px;
+  --body-font-size-xs: 12px;
+  --body-line-height: 1.6;
 
   /* heading sizes */
-  --heading-font-size-xxl: 55px;
-  --heading-font-size-xl: 44px;
-  --heading-font-size-l: 34px;
-  --heading-font-size-m: 27px;
-  --heading-font-size-s: 24px;
-  --heading-font-size-xs: 22px;
+  --heading-font-size-xxl: 32.44px;
+  --heading-font-size-xl: 28.83px;
+  --heading-font-size-l: 25.63px;
+  --heading-font-size-m: 22.78px;
+  --heading-font-size-s: 20.25px;
+  --heading-font-size-xs: 18px;
+  --heading-line-height: 1.15;
 
   /* nav heights */
   --nav-height: 64px;

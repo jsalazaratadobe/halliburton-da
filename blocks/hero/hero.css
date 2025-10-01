@@ -63,12 +63,4 @@
     .hero-heading {
       margin: 0;
     }
-  }
-
-  &.center {
-    .hero-foreground {
-      justify-content: center;
-      text-align: center;
-    }
-  }
 }

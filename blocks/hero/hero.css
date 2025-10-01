@@ -36,7 +36,7 @@
   }
 }
 
-.hero-foreground {
+.hero-wrapper {
     max-width: var(--grid-container-width);
     min-height: var(--min-height);
     margin: 0 auto;

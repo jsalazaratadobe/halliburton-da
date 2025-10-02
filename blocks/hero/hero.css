@@ -2,6 +2,7 @@
   /* max-width: unset;
   padding: 0;
 } */
+
 .hero {
   position: relative;
   padding: 40px 24px;
@@ -10,22 +11,11 @@
   overflow: hidden;
 }
 
-.hero::before {
-  content: '';
-  position: absolute;
-  z-index: 0;
-  inset: 0;
-  background-color: rgba(0, 0, 0, 0.5);
-  pointer-events: none;
-}
-
 .hero h1 {
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
   color: var(--background-color);
-  position: relative;
-  z-index: 1;
 }
 
 .hero picture {
@@ -55,33 +45,24 @@
     position: relative;
     display: flex;
     align-items: center;
+
     p {
       margin: 8px 0;
     }
+
     div > *:first-child {
       margin-top: 0;
     }
+
     div > *:last-child {
       margin-bottom: 0;
     }
+
     .hero-detail {
       margin: 0;
     }
+
     .hero-heading {
       margin: 0;
     }
-}
-
-.hero-updated::before {
-  content: '';
-  position: absolute;
-  z-index: 0;
-  inset: 0;
-  background-color: rgba(0, 0, 0, 0.5);
-  pointer-events: none;
-}
-
-.hero-updated > * {
-  position: relative;
-  z-index: 1;
 }

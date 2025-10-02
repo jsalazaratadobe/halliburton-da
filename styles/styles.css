@@ -43,7 +43,7 @@
   --heading-line-height: 1.15;
 
   /* nav heights */
-  --nav-height: 64px;
+  --nav-height: 80px;
   --breadcrumbs-height: 34px;
   --header-height: var(--nav-height);
 }
